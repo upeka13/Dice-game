@@ -1,0 +1,54 @@
+.container{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 50px;
+    background-color: rgb(86, 95, 133);
+
+}
+
+.players{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dice{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 183, 210);
+    margin: 0 auto;
+    font-size: 80px;
+    display: block;
+}
+
+
+#rollBtn{
+    background-color: rgb(185, 183, 210);
+}
+
+#resetBtn{
+    background-color: rgb(159, 153, 243);
+}
+
+button:focus{
+    outline: none;
+    
+}
+
+
+
+.active{
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+button{
+    margin: 30 auto;
+    padding: 10px;
+}
+
+#resetBtn{
+    display: none;  
+}
